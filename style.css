@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.fullpage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333844;
+}
+.catch_phrase {
+    width: 100vw;
+    height: 35vh;
+    position: absolute;
+    top: 7%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white
+}
+.catch_phrase_links {
+    display: flex;
+    justify-content: center;
+}
+.Civil_logo {
+    color: #ff2e2e;
+}
+.catch_phrase_links a {
+    width: 7.8125vw;
+    margin-left: 2.0833333333333335vw;
+    margin-right: 4.140786749482402vh;
+    margin-bottom: 4.140786749482402vh;
+    margin-top: 2.0833333333333335vw;
+    height: 5.140786749482402vh;
+    background-color: #ff2e2e;
+    border: 0.10351966873706005vh solid white;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6563146997929608vmin;
+}
+.server_main {
+    position: absolute;
+    top: 60%;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.server_main > div {
+    height: 100%;
+    width: 26.041666666666668vw;
+}
+.main_box { 
+    background-color: #ff2e2e;
+    background-position: center;
+    width: 26.041666666666668vw;        
+    height: 80%;       
+    border: 0.10351966873706005vh solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scp_main_box {
+    background: url("https://civilgamers.com/assets/bg/scprp.webp");
+    background-position: center; 
+}
+.scp_hero {
+    position: relative;
+    top: -41.40786749482402vh;
+    height: 41.40786749482402vh;
+}
+.mrp_main_box {
+    background: url("mrp.jpg");
+    background-position: center;
+}
+.server_connect_box {
+    z-index: 9999;
+    transform: translateX(-60%);
+    margin-left: 0.10416666666666667vw;
+    margin-right: 0.10416666666666667vw;
+    margin-top: 0.2070393374741201vh;
+    margin-bottom: 0.2070393374741201vh;
+    width: 7.8125vw;
+    height: 20.70393374741201vh;
+    background-color: #383c42;
+    border: 0.10351966873706005vh solid white;
+    position: relative;
+    left: 8.854166666666666vw;
+}
+.server_title {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 1.0416666666666667vw;
+    color: white;
+}
+.curent_player_count {
+    position: relative;
+    width: 4.776041666666667vw;
+    height: 3.1055900621118013vh;
+    background-color: #ff2e2e;
+    top: -3.209109730848861vh;
+    margin-left: 10%;
+}
+.total_player_count {
+    width: 6.25vw;
+    height: 3.1055900621118013vh;
+    background-color: #2d3238;
+    border: 0.10351966873706005vh solid white;
+    margin: auto;
+}
+.player_count {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -2.587991718426501vh;
+    font-size: 1.6563146997929608vh;
+}
+.connect_button {
+    line-height: 3.6231884057971016vh;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border: 0.10351966873706005vh white solid;
+    text-decoration: none;
+    top: -3.1055900621118013vh;
+    width: 6.770833333333333vw;
+    height: 4.140786749482402vh;
+    background-color: #ff2e2e;
+    font-size: 1.6563146997929608vh;
+}
+.mrp_box {
+    transform: translate(-150%);
+}
+.mrp_hero {
+    height: 44.51345755693582vh;
+    position: relative;
+    top: -41.40786749482402vh;
+    left: 18.229166666666668vw;
+}
+.rust_main_box {
+    background: url("rust.jpg");
+    background-position: center;
+}
+.rust_hero {
+    height: 36.231884057971016vh;
+    position: relative;
+    top: -30.020703933747413vh;
+    left: -10.59375vw;
+}
+.catch_phrase_title {
+    font-family: 'Bebas Neue', cursive;
+    margin: 4%;
+    font-size: 8.140786749482402vmin;
+}
+.catch_phrase_under {
+    width: 60%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.184472049689441vmin;
+}
+.scp-background-picture {
+    width: 100%;
+    height: 100%;
+    background-image: 
+    linear-gradient(90deg, rgba(0,0,0,0.8645658947172619) 36%, rgba(0,0,0,0.09986001236432074) 54%), 
+    url('https://civilgamers.com/assets/bg/scprp.webp') ;
+    background-size: cover;
+}
+.scp {
+    color: white; 
+}
+.scp_title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8.140786749482402vmin;
+    margin-bottom: 10px;
+}
+.scp_content {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+}   
+.scp_words {
+    position: relative;
+    top: 17%;
+    width: auto;
+    margin-left: 5vw;
+}
+.scp_under_title {
+    width: 30vw;
+    font-size: 2.2vmin;
+}
+.scp_heroes {
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    height: auto;
+    bottom: 0;
+    padding: 10px;
+}
+.scp_devs_title {
+    font-size: 2vmin;
+}
+.scp_links {
+    display: flex;
+    align-items: flex-start;
+}
+.scp_links a {
+    color: white;
+    width: 7.8125vw;
+    height: 5.175983436853002vh;
+    background-color: #ff2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5208333333333334vw;
+    text-decoration: none;
+    border: 1px white solid;
+    font-size: 0.8333333333333334vmax;
+}
+.scp_devs {
+    display: flex;
+    align-items: flex-start;
+}
+.scp_dev img {
+    border-radius: 50%;
+    border: 0.15vw white solid;
+    width: 4.166666666666667vw;
+    margin-right: 0.78125vw;
+}
+.scp_video {
+    position: absolute;
+    right: 5vw;
+    width: 40vw;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid white;
+}
+@media (max-width: 1024px) and (max-aspect-ratio: 1), (max-aspect-ratio: 1.20)  {
+
+    .server_main {
+        position: absolute;
+        top: 50%;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .server_main > div {
+        height: 50%;
+        width: 45vw;
+    }
+    .main_box { 
+        background-color: #ff2e2e;
+        background-position: center;
+        width: 100%;        
+        height: 80%;       
+        border: 0.10351966873706005vh solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scp_hero {
+        position: relative;
+        top: -30.540786749482402vh;
+        height: 30.40786749482402vh;
+    }
+    .mrp_main_box {
+        background: url("mrp.jpg");
+        background-position: center;
+    }
+    .mrp_hero {
+        height: 30.51345755693582vh;
+        position: relative;
+        top: -28.40786749482402vh;
+        left: -4.229166666666668vw;
+    }
+    .rust_hero {
+        height: 25.231884057971016vh;
+        position: relative;
+        top: -20.020703933747413vh;
+        left: -18.59375vw;
+    }
+    .server_connect_box {
+        z-index: 9999;
+        transform: translateX(-60%);
+        margin-left: 0.20416666666666667vw;
+        margin-right: 0.20416666666666667vw;
+        margin-top: 0.2070393374741201vh;
+        margin-bottom: 0.2070393374741201vh;
+        width: 13.8125vw;
+        height: auto;
+        background-color: #383c42;
+        border: 0.10351966873706005vh solid white;
+        position: relative;
+        left: 8.854166666666666vw;
+    }
+    .server_title {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        font-size: 1.90416666666666667vw;
+        color: white;
+    }
+    .curent_player_count {
+        position: relative;
+        width: 6.88671875vw;
+        height: 1.5055900621118013vh;
+        background-color: #ff2e2e;
+        top: -1.609109730848861vh;
+        margin-left: 13%;
+    }
+    .total_player_count {
+        width: 10.25vw;
+        height: 1.5055900621118013vh;
+        background-color: #2d3238;
+        border: 0.10351966873706005vh solid white;
+        margin: auto;
+    }
+    .player_count {
+        color: white;
+        text-align: center;
+        position: relative;
+        top: -2.087991718426501vh;
+        font-size: 0.9563146997929608vh;
+    }
+    .connect_button {
+        line-height: 1.9231884057971016vh;
+        display: block;
+        position: relative;
+        text-align: center;
+        color: white;
+        margin: auto;
+        border: 0.10351966873706005vh white solid;
+        text-decoration: none;
+        top: -2.5055900621118013vh;
+        width: 10.770833333333333vw;
+        height: 2.140786749482402vh;
+        background-color: #ff2e2e;
+        font-size: 1.063146997929608vh;
+    }
+    .scp_box {
+        transform: translate(-15%);
+    }
+    .mrp_box {
+        transform: translate(-20%);
+    }
+    .rust_box {
+        transform: translate(-20%);
+    }
+    .catch_phrase_title {
+        margin: 0;
+        font-family: 'Bebas Neue', cursive;
+        margin: 1.5%;
+        font-size: 8.140786749482402vmin;
+    }
+    .catch_phrase_under {
+        width: 80%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.584472049689441vmin;
+    }
+    .catch_phrase {
+        width: 100vw;
+        height: 35vh;
+        position: absolute;
+        top: 7%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white
+    }
+    .catch_phrase_links a {
+        width: 15.8125vw;
+        margin-left: 4.1833333333333335vw;
+        margin-right: 4.140786749482402vh;
+        margin-bottom: 4.140786749482402vh;
+        margin-top: 6.0833333333333335vw;
+        height: 5.140786749482402vh;
+        background-color: #ff2e2e;
+        border: 0.10351966873706005vh solid white;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.0563146997929608vmin;
+    }
+    .scp_words {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 50%;
+        margin: 0;
+        top: 0;
+        width: 80vw;
+    }
+    .scp_content {
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .scp_video {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        top: 55%;
+        transform: translateX(-50%);
+        background-color: blue;
+        width: 70vw;
+    }
+    .scp_under_title {
+        width: 70vw;
+        font-size: 2.1vh;
+    }
+    .scp_links a {
+        width: 15.8125vh;
+        font-size: 1.3333333333333334vh;
+    }
+    .scp_dev img { 
+        width: 6.166666666666667vh;
+    }
+    .scp_devs_title {
+        font-size: 2vh;
+    }
+}
+@media (max-width: 500px) {
+    .catch_phrase_title {
+        margin: 0;
+        font-family: 'Bebas Neue', cursive;
+        margin: 1.5%;
+        font-size: 6.140786749482402vh;
+    }
+    .catch_phrase_under {
+        width: 80%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.084472049689441vh;
+    }
+    .catch_phrase {
+        width: 100vw;
+        height: 35vh;
+        position: absolute;
+        top: 7%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white
+    }
+    .catch_phrase_links a {
+        width: 13.8125vh;
+        margin-left: 4.1833333333333335vw;
+        margin-right: 4.140786749482402vh;
+        margin-bottom: 4.140786749482402vh;
+        margin-top: 6.0833333333333335vw;
+        height: 5.140786749482402vh;
+        background-color: #ff2e2e;
+        border: 0.10351966873706005vh solid white;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2563146997929608vh;
+    }
+    .server_main {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        height: 45%;
+        padding-bottom: 70px;
+        top: 40%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        align-items: flex-end;
+    }
+    .boxes {
+        margin: 0 7px;
+        flex: 0 0 300px;
+        height: 110%;
+    }
+    .server_connect_box {
+        z-index: 9999;
+        transform: translateX(-60%);
+        margin-left: 0.20416666666666667vw;
+        margin-right: 0.20416666666666667vw;
+        margin-top: 0.2070393374741201vh;
+        margin-bottom: 0.2070393374741201vh;
+        width: 19.8125vw;
+        height: auto;
+        background-color: #383c42;
+        border: 0.10351966873706005vh solid white;
+        position: relative;
+        left: 8.854166666666666vw;
+    }
+    .server_title {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        font-size: 3.10416666666666667vw;
+        color: white;
+    }
+    .curent_player_count {
+        position: relative;
+        width: 6.88671875vw;
+        height: 1.5055900621118013vh;
+        background-color: #ff2e2e;
+        top: -1.619109730848861vh;
+        margin-left: 11.5%;
+    }
+    .total_player_count {
+        width: 15.25vw;
+        height: 1.5055900621118013vh;
+        background-color: #2d3238;
+        border: 0.10351966873706005vh solid white;
+        margin: auto;
+    }
+    .player_count {
+        color: white;
+        text-align: center;
+        position: relative;
+        top: -2.087991718426501vh;
+        font-size: 1.163146997929608vh;
+    }
+    .connect_button {
+        line-height: 1.9231884057971016vh;
+        display: block;
+        position: relative;
+        text-align: center;
+        color: white;
+        margin: auto;
+        border: 0.10351966873706005vh white solid;
+        text-decoration: none;
+        top: -2.5055900621118013vh;
+        width: 10.770833333333333vw;
+        height: 2.140786749482402vh;
+        background-color: #ff2e2e;
+        font-size: 1.063146997929608vh;
+    }
+    .scp_box {
+        transform: translate(-15%);
+    }
+    .mrp_box {
+        transform: translate(-20%);
+    }
+    .rust_box {
+        transform: translate(-20%);
+    }
+    .main_box { 
+        background-color: #ff2e2e;
+        background-position: center;
+        width: 100%;    
+        height: 100%;    
+        border: 0.10351966873706005vh solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .scp_title {
+        font-size: 6vh;
+    }
+    .scp_video  {
+        top: 65%;
+        width: 90vw;
+    }
+}
